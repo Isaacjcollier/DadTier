@@ -12,15 +12,15 @@ class Header extends React.Component {
         return (
             <div className={styles.content}>
                 <img className={styles.dadtierLogo} src={dadtierLogo} alt="DadTier Logo"/>
-                <div className={styles.headerButton}>In 64: progress</div>
+                <div className={styles.headerButton}>Tier List 64</div>
                 <div className={styles.headerButton}>The Collection</div>
                 <div className={styles.headerButton}>About Us</div>
 
                 <div>
-                    <a href="https://twitch.tv/dadtier"><img className={styles.socialIcon} src={twitchLogo} alt="twitchIcon"/> </a>
-                    <a href="https://twitter.com/dadtier"><img className={styles.socialIcon} src={twitterLogo} alt="twitterIcon"/> </a>
-                    <a href="https://discord.gg/KyCKtQz"><img className={styles.socialIcon} src={discordLogo} alt="discordIcon"/> </a>
-                    <a href="https://www.instagram.com/dadtier/"><img className={styles.socialIcon} src={instagramLogo} alt="instagramIcon"/> </a>
+                    <a href="https://twitch.tv/dadtier" target="_blank"><img className={styles.socialIcon} src={twitchLogo} alt="twitchIcon"/> </a>
+                    <a href="https://twitter.com/dadtier" target="_blank"><img className={styles.socialIcon} src={twitterLogo} alt="twitterIcon"/> </a>
+                    <a href="https://discord.gg/KyCKtQz" target="_blank"><img className={styles.socialIcon} src={discordLogo} alt="discordIcon"/> </a>
+                    <a href="https://www.instagram.com/dadtier/" target="_blank"><img className={styles.socialIcon} src={instagramLogo} alt="instagramIcon"/> </a>
 
                 </div>
 
