@@ -1,0 +1,19 @@
+.fridge {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.fridgeTopHalf {
+    height: 33%;
+    width: 40%;
+    background-color: grey;
+
+}
+
+.fridgeBottomHalf {
+    height: 67%;
+    width: 40%;
+    
+}
