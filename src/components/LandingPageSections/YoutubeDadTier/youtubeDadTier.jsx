@@ -11,7 +11,10 @@ class YoutubeDadTier extends React.Component {
                 <div className={styles.contentText}>
                     <h1 className={styles.header}>Want more DadTier Family Friendly Fun?</h1>
                     <h2 className={styles.subHeader}>Watch clips, reviews, highlights and more on our Youtube Channel</h2>
-                    <img className={styles.youtubeButton} src={youtubeButton} alt=""/>
+                    <a href="https://www.youtube.com/channel/UCegPdaXYiAuFNdkCRXxowjQ?view_as=subscriber" target="_blank">
+                        <img className={styles.youtubeButton} src={youtubeButton} alt=""/>
+                    </a>
+                    
                 </div>
                 
 
