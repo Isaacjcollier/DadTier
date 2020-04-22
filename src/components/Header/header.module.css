@@ -25,6 +25,7 @@
 
 .headerButton {
     width: 140px;
+    color: black;
     text-align: center;
     margin: 0 5px 0 5px;
     padding: 20px 5px;
@@ -33,6 +34,7 @@
 
 .headerButton:hover {
     cursor: pointer;
+    color: black;
     filter:invert(100%);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%,  rgba(233, 233, 233, 0.192) 100%);
 }
@@ -64,6 +66,6 @@
     }
 
     .dadtierLogo {
-        padding: 0px 100%
+        width: 0px 100%
     }
 }

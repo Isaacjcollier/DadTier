@@ -5,14 +5,15 @@ import twitchLogo from '../../media/images/twitchLogo.png'
 import discordLogo from '../../media/images/discordLogo.png'
 import twitterLogo from '../../media/images/twitterLogo.png'
 import instagramLogo from '../../media/images/instagramLogo.png'
+import {Link} from 'react-router-dom'
 
 
 class Header extends React.Component {
     render() {
         return (
             <div className={styles.content}>
-                <img className={styles.dadtierLogo} src={dadtierLogo} alt="DadTier Logo"/>
-                <div className={styles.headerButton}>Tier List 64</div>
+                <Link to={"/"}> <img className={styles.dadtierLogo} src={dadtierLogo} alt="DadTier Logo"/> </Link>
+                <Link to={"/TierList64"} className={styles.headerButton}>Tier List 64</Link>
                 <div className={styles.headerButton}>The Collection</div>
                 <div className={styles.headerButton}>About Us</div>
 
