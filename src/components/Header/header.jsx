@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './header.module.css'
-import dadtierLogo from '../../media/headerLogo.png'
-import twitchLogo from '../../media/twitchLogo.png'
-import discordLogo from '../../media/discordLogo.png'
-import twitterLogo from '../../media/twitterLogo.png'
-import instagramLogo from '../../media/instagramLogo.png'
+import dadtierLogo from '../../media/images/headerLogo.png'
+import twitchLogo from '../../media/images/twitchLogo.png'
+import discordLogo from '../../media/images/discordLogo.png'
+import twitterLogo from '../../media/images/twitterLogo.png'
+import instagramLogo from '../../media/images/instagramLogo.png'
 
 
 class Header extends React.Component {
@@ -17,10 +17,10 @@ class Header extends React.Component {
                 <div className={styles.headerButton}>About Us</div>
 
                 <div>
-                    <a href="https://twitch.tv/dadtier"><img className={styles.socialIcon} src={twitchLogo}/> </a>
-                    <a href="https://twitter.com/dadtier"><img className={styles.socialIcon} src={twitterLogo}/> </a>
-                    <a href="https://discord.gg/KyCKtQz"><img className={styles.socialIcon} src={discordLogo}/> </a>
-                    <a href="https://www.instagram.com/dadtier/"><img className={styles.socialIcon} src={instagramLogo}/> </a>
+                    <a href="https://twitch.tv/dadtier"><img className={styles.socialIcon} src={twitchLogo} alt="twitchIcon"/> </a>
+                    <a href="https://twitter.com/dadtier"><img className={styles.socialIcon} src={twitterLogo} alt="twitterIcon"/> </a>
+                    <a href="https://discord.gg/KyCKtQz"><img className={styles.socialIcon} src={discordLogo} alt="discordIcon"/> </a>
+                    <a href="https://www.instagram.com/dadtier/"><img className={styles.socialIcon} src={instagramLogo} alt="instagramIcon"/> </a>
 
                 </div>
 

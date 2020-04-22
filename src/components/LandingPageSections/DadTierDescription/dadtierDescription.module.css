@@ -1,0 +1,31 @@
+.main {
+    height: 400px;;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.dadtierPicture {
+    height: 200px;
+    width: 200px;
+    margin-top: 2em;
+}
+
+.description {
+    margin-top: 2em;
+    text-align: center;
+    width: 500px;
+}
+
+@media only screen and (max-width:600px) {
+    .description {
+        width: 90%
+    }
+
+    .main {
+        height: 525px;
+    }
+}
