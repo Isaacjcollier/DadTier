@@ -1,7 +1,8 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom'
-import LandingPage from './pages/LandingPage/landingpage.jsx'
-import TierList64 from './pages/TierList64/tierlist64'
+import LandingPage from './pages/LandingPage/landingPage.jsx'
+import TierList64Page from './pages/TierList64Page/tierlist64Page'
+import CollectionPage from './pages/CollectionPage/collectionPage'
 import Header from './components/Header/header.jsx'
 import './App.css';
 
@@ -17,7 +18,8 @@ class App extends React.Component {
         
         <Switch>
           <Route exact path='/' render={(props) => <LandingPage {...props} />}/>
-          <Route exact path='/TierList64' render={(props) => <TierList64 {...props} />}/>
+          <Route exact path='/TierList64' render={(props) => <TierList64Page {...props} />}/>
+          <Route exact path='/Collection' render={(props) => <CollectionPage {...props} />}/>
           {/* <Route render={() => <PageNotFound}/>}/> */}
         </Switch>
       </div>

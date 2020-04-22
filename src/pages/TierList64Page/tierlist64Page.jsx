@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './tierList64.module.css'
+import styles from './tierList64Page.module.css'
 
 class LandingPage extends React.Component {
     render() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './landingpage.module.css'
+import styles from './landingPage.module.css'
 import DadTierDescription from '../../components/LandingPageSections/DadTierDescription/dadtierDescription'
 import TwitchDadTier from '../../components/LandingPageSections/TwitchDadTier/twitchDadTier'
 import YoutubeDadTier from '../../components/LandingPageSections/YoutubeDadTier/youtubeDadTier'
