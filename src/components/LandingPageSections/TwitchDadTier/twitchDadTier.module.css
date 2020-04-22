@@ -7,14 +7,17 @@
     background: linear-gradient(270deg, rgba(235,221,255,1) 0%, rgba(148,76,252,1) 100%);
 }
 
-.watchDadTierText {
-    flex-grow: 3;
+.twitchDadTierText {
+    flex-grow: 1;
     margin: 2em 0 0 2em;
 }
 
 .twitchVideoLink {
-    flex-grow: 0;
-    margin: 2em 4em 0 0;
+    flex-grow: 3;
+    margin-top: 1em;
+}
+
+.embeddTwitchPlayer {
     width: 300px;
 }
 
@@ -42,42 +45,48 @@
     width: 200px;
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:1100px) {
     .main {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        height:650px;
+        height:750px;
     }
 
-    .watchDadTierText {
+    .twitchDadTierText {
         flex-grow: 3;
         margin: 0;
     }
-
-    .twitchVideoLink {
-        padding-bottom: 100%;
-    }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:700px) {
     .main {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: 400px;
-    }
-
-    .watchDadTierText {
-        flex-grow: 3;
-        margin: 1em 1em 0 1em;
+        height: 450px;
     }
 
     .twitchButton {
         width: 80%;
     }
 
+    .embeddTwitchPlayer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .main {
+        height: 400px;
+    }
+
+    .twitchDadTierText {
+        flex-grow: 3;
+        margin: 1em 1em 0 1em;
+    }
+
+
+
     .twitchVideoLink {
        display: none;
     }
+
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './landingpage.module.css'
 import DadTierDescription from '../../components/LandingPageSections/DadTierDescription/dadtierDescription'
-import WatchDadTier from '../../components/LandingPageSections/WatchDadTier/watchDadTier'
+import TwitchDadTier from '../../components/LandingPageSections/TwitchDadTier/twitchDadTier'
+import YoutubeDadTier from '../../components/LandingPageSections/YoutubeDadTier/youtubeDadTier'
 
 class LandingPage extends React.Component {
     render() {
@@ -9,7 +10,9 @@ class LandingPage extends React.Component {
             <div className={styles.mainContainer}>
 
                 <DadTierDescription />
-                <WatchDadTier />
+                <TwitchDadTier />
+                <YoutubeDadTier />
+                
             </div>
         )
     }
