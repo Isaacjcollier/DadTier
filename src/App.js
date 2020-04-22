@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import {Route, Switch} from 'react-router-dom'
 import LandingPage from './pages/LandingPage/landingpage.jsx'
 import Header from './components/Header/header.jsx'
@@ -11,8 +10,9 @@ class App extends React.Component {
 
     
     return ( 
-      <div className={StyleSheet.content}>
+      <div>
         <Header/>
+        <div className="padders" />
         
         <Switch>
           <Route exact path='/' render={(props) => <LandingPage {...props} />}/>

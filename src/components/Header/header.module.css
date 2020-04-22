@@ -5,12 +5,16 @@
     justify-content: center;
     box-shadow: 0 4px 2px -2px gray;
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(82,81,81,0.46122198879551823) 100%);
+    background-color: white;
+    position: fixed;
+    top: 0;
 }
 
 .dadtierLogo {
     height: 60px;
     width: 125px;
     padding: 0px 20px;
+    transition: 0.3s;
 }
 
 .dadtierLogo:hover {
@@ -22,8 +26,9 @@
 .headerButton {
     width: 140px;
     text-align: center;
-    margin: 20px 5px 0 5px;
-    padding: 0 5px;
+    margin: 0 5px 0 5px;
+    padding: 20px 5px;
+    transition: 0.3s;
 }
 
 .headerButton:hover {
@@ -39,6 +44,7 @@
     border: 1px solid darkgrey;
     margin-left: 6px;
     margin-top: 14px;
+    transition: 0.3s;
 }
 
 .socialIcon:hover {
@@ -52,7 +58,7 @@
     }
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width: 600px) {
     .headerButton {
         display: none;  
     }
