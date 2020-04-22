@@ -17,7 +17,7 @@ class Header extends React.Component {
                 <Link to={"/"}> <img className={styles.dadtierLogo} src={dadtierLogo} alt="DadTier Logo"/> </Link>
                 <Link to={"/TierList64"} className={styles.headerButton}>Tier List 64</Link>
                 <Link to={"/Collection"} className={styles.headerButton}>The Collection</Link>
-                <div className={styles.headerButton}>About Us</div>
+                <Link to={"/AboutUs"} className={styles.headerButton}>About Us</Link>
 
                 <div>
                     <a href="https://twitch.tv/dadtier" target="_blank"><img className={styles.socialIcon} src={twitchLogo} alt="twitchIcon"/> </a>
