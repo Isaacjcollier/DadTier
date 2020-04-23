@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f9589cf.chunk.css",
+    "main.css": "/static/css/main.dc6887ab.chunk.css",
     "main.js": "/static/js/main.413843f3.chunk.js",
     "main.js.map": "/static/js/main.413843f3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d849cdc.js",
@@ -8,9 +8,9 @@
     "static/js/2.5f00067c.chunk.js": "/static/js/2.5f00067c.chunk.js",
     "static/js/2.5f00067c.chunk.js.map": "/static/js/2.5f00067c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.48e7133d32cacf4ed4bae0c40ae560e1.js": "/precache-manifest.48e7133d32cacf4ed4bae0c40ae560e1.js",
+    "precache-manifest.5a5f920fad37b012c1846953cc6cbbe9.js": "/precache-manifest.5a5f920fad37b012c1846953cc6cbbe9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4f9589cf.chunk.css.map": "/static/css/main.4f9589cf.chunk.css.map",
+    "static/css/main.dc6887ab.chunk.css.map": "/static/css/main.dc6887ab.chunk.css.map",
     "static/js/2.5f00067c.chunk.js.LICENSE.txt": "/static/js/2.5f00067c.chunk.js.LICENSE.txt",
     "static/media/dadtierBrand.png": "/static/media/dadtierBrand.520d97e8.png",
     "static/media/dance.gif": "/static/media/dance.8acd9399.gif",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.2d849cdc.js",
     "static/js/2.5f00067c.chunk.js",
-    "static/css/main.4f9589cf.chunk.css",
+    "static/css/main.dc6887ab.chunk.css",
     "static/js/main.413843f3.chunk.js"
   ]
 }
