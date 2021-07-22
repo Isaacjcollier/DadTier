@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom'
-import LandingPage from './pages/LandingPage/landingPage.jsx'
+import LandingPage from './pages/LandingPage/landingpage'
 import TierList64Page from './pages/TierList64Page/tierlist64Page'
 import CollectionPage from './pages/CollectionPage/collectionPage'
 import AboutUsPage from './pages/AboutUsPage/aboutUsPage'

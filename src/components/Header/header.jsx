@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './header.module.css'
-import dadtierLogo from '../../media/images/headerLogo.png'
+import dadtierLogo from '../../media/images/DadTierLogo_Updated-01.png'
 import twitchLogo from '../../media/images/twitchLogo.png'
 import discordLogo from '../../media/images/discordLogo.png'
 import twitterLogo from '../../media/images/twitterLogo.png'
