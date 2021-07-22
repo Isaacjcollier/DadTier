@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from './carousel.module.css'
+// import './carousel.module.css'
 import { Carousel } from 'react-responsive-carousel';
 
 class DemoCarousel extends Component {
@@ -16,7 +17,7 @@ class DemoCarousel extends Component {
                 showIndicators={false}
                 showStatus={false}
                 showThumbs={false}
-                
+                carouselTextBox
                 >
                     <div className={styles.imageContainer}>
                         <img className={styles.image1} src={require('./images/slide1.jpg')} />
@@ -36,7 +37,7 @@ class DemoCarousel extends Component {
                 </Carousel>
 
                     <div className={styles.carouselTextBox}>
-                        <h1 className={styles.carouselText}>{"Jordan, Joshua & Isaac"}</h1>
+                        <h1 className={styles.carouselText}>{"Jordan, Joshua, Isaac"}</h1>
                         <h2 className={styles.carouselText}>{"Dads, Brothers, & Hosts of DadTier"}</h2>
                     </div>
             </div>
